@@ -5,8 +5,7 @@ function CompanyResult(props) {
     const {
         name,
         description,
-        address = {},
-        image
+        address = {}
     } = props;
 
     const {

@@ -25,6 +25,7 @@ function SearchResult(props) {
             case 'company': return (
                 <CompanyResult {...rest} />
             );
+            default: throw new Error('Invalid content');
         }
     }
 
