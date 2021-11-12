@@ -1,0 +1,50 @@
+.SearchPage__header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #8b8a8a;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.SearchPage__results-container {
+    margin: 120px auto;
+    width: 1000px;
+}
+
+.SearchPage__no-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 300px;
+}
+
+.SearchPage__input {
+    height: 48px;
+    width: 840px;
+    border-radius: 8px;
+    border: 1px solid #606060;
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+.SearchPage__error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 300px;
+}
+
+.SearchPage__loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 300px;
+}

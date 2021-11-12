@@ -1,0 +1,6 @@
+.Favorite {
+    height: fit-content;
+    align-self: flex-start;
+    transform: scale(1.25);
+    z-index: 0;
+}
